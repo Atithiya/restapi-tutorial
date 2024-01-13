@@ -1,0 +1,29 @@
+
+### Get all data
+http://localhost:4000/
+
+
+### Get only one id
+http://localhost:4000/3
+
+
+### Post ค่า
+POST http://localhost:4000/
+Content-Type: application/json
+
+{
+    "id": 1,
+    "name" : "Rose"
+}
+
+###
+PUT http://localhost:4000/4
+Content-Type: application/json
+
+{
+    "name" : "Mina"
+}
+
+###
+DELETE http://localhost:4000/1
+Content-Type: application/json
